@@ -116,7 +116,6 @@ Task list:
     * only mandatory fields are filled in + corresponding assertions
     * mandatory fields are absent + corresponding assertions (try using function)
     * add file functionlity(google yourself for solution!)
-<<<<<<< HEAD
  */
 
 // Variables
@@ -183,6 +182,3 @@ function fillMandatoryFields() {
     cy.get('[name="email"]').type(randomEmail)
     cy.get('input[type="checkbox"]').eq(0).click()
 }
-=======
- */
->>>>>>> f7e56ef76030d4e2151ff9ea3435b7d52f238d71
