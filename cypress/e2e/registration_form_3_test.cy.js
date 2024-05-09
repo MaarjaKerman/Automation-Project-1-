@@ -10,8 +10,11 @@ Task list:
     * radio buttons and its content
     * dropdown and dependencies between 2 dropdowns:
         * list of cities changes depending on the choice of country
-        * if city is already chosen and then country is updated then the previously chosen city is being removed
-     * checkboxes, their content and links
+<<<<<<< HEA
+=======
+        * if city is already chosen and country is updated, then city choice should be removed
+    * checkboxes, their content and links
+>>>>>>> f7e56ef76030d4e2151ff9ea3435b7d52f238d71
     * email format
  */
 describe('Section 1: Visual tests', () => {
@@ -113,6 +116,7 @@ Task list:
     * only mandatory fields are filled in + corresponding assertions
     * mandatory fields are absent + corresponding assertions (try using function)
     * add file functionlity(google yourself for solution!)
+<<<<<<< HEAD
  */
 
 // Variables
@@ -179,3 +183,6 @@ function fillMandatoryFields() {
     cy.get('[name="email"]').type(randomEmail)
     cy.get('input[type="checkbox"]').eq(0).click()
 }
+=======
+ */
+>>>>>>> f7e56ef76030d4e2151ff9ea3435b7d52f238d71
