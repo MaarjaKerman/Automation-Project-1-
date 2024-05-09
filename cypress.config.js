@@ -1,6 +1,7 @@
 const {defineConfig} = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'imczkx',
     pageLoadTimeout: 15000,
 
     env: {
